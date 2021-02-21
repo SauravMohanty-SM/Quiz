@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroung"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="285dp">
+
+        <TextView
+            android:id="@+id/Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/prog_Q_pg1"
+            android:textAlignment="center"
+            android:textColor="@color/welcome"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/backgroung"
+            android:contentDescription="@string/ans_1"
+            android:text="@string/opt1_pg1"
+            android:textColor="@color/welcome"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/Answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/backgroung"
+            android:contentDescription="@string/ans_2"
+            android:text="@string/opt1_pg2"
+            android:textColor="@color/welcome"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/Answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="120dp"
+            android:background="@color/backgroung"
+            android:contentDescription="@string/ans_3"
+            android:text="@string/opt1_pg3"
+            android:textColor="@color/welcome"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/Answer_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="180dp"
+            android:background="@color/backgroung"
+            android:contentDescription="@string/ans_4"
+            android:text="@string/opt1_pg4"
+            android:textColor="@color/welcome"
+            android:textSize="19sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/next_button"
+            android:contentDescription="@string/nextbutton"
+            android:text="@string/next_button"
+            android:textColor="@color/welcome"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ScoreViewProg"
+            android:textColor="@color/welcome"
+            android:textSize="20sp"
+            android:background="@color/actionbar_copy"/>
+    </RelativeLayout>
+
+</LinearLayout>

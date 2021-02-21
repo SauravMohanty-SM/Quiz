@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Quize</string>
+    <string name="text_view">Welcome</string>
+    <string name="phy">phy</string>
+    <string name="prog">prog</string>
+    <string name="network">network</string>
+    <string name="ans_1">ans_1</string>
+    <string name="ans_2">ans_2</string>
+    <string name="ans_3">ans_3</string>
+    <string name="ans_4">ans_4</string>
+    <string name="next_button">Next</string>
+    <string name="nextbutton">Next_Button</string>
+    <string name="ScoreViewPhy">Score 0/3</string>
+    <string name="ScoreViewProg">Score 0/12</string>
+    <string name="ScoreViewNet">Score 0/0</string>
+
+
+
+    <string name="phy_Q_p1">A train running at the speed of 60 km/h crosses a pole in 9 seconds. What is th e length of the train?</string>
+    <string name="opt1_p1">120 meters</string>
+    <string name="opt1_p2">180 meters</string>
+    <string name="opt1_p3">324 meters</string>
+    <string name="opt1_p4">150 meters</string>
+    <string name="phy_Q_p2">If a persion walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance traveled by him is :</string>
+    <string name="opt2_p1">50 KM</string>
+    <string name="opt2_p2">56 KM</string>
+    <string name="opt2_p3">70 KM</string>
+    <string name="opt2_p4">80 KM</string>
+    <string name="phy_Q_p3">Mr. Thomas invested an amount of Rs. 13,000 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 2508, what was the amount invested in scheme B? </string>
+    <string name="opt3_p1">Rs. 6400</string>
+    <string name="opt3_p2">Rs. 6500</string>
+    <string name="opt3_p3">Rs. 7200</string>
+    <string name="opt3_p4">Rs. 7500</string>
+
+
+
+    <string name="prog_Q_pg1">Which one of the following will declare an array and initialize it with five numbers?</string>
+    <string name="opt1_pg1">Array a = new Array(5)</string>
+    <string name="opt1_pg2">int [] a = {23,22,21,20,19}</string>
+    <string name="opt1_pg3">int a [] = new int[5]</string>
+    <string name="opt1_pg4">int [5] array</string>
+    <string name="prog_Q_pg2">Which is a reserved word in Java programming language?</string>
+    <string name="opt2_pg1">method</string>
+    <string name="opt2_pg2">native</string>
+    <string name="opt2_pg3">subclass</string>
+    <string name="opt2_pg4">reference</string>
+    <string name="prog_Q_pg3"><br>What is the output of the below code snippet?\n</br>
+        <br>#include<![CDATA[<]]>stdio.h<![CDATA[>]]>\n</br>
+        <br>main()\n</br>
+        <br>{  \nchar s[]="hello",t[]="hello";\n</br>
+        <br>if(s==t)\n</br>
+        <br>{  printf("equal strings");  }  \n }\n</br></string>
+    <string name="opt3_pg1">Equal strings</string>
+    <string name="opt3_pg2">Unequal strings</string>
+    <string name="opt3_pg3">no output</string>
+    <string name="opt3_pg4">compilation error</string>
+    <string name="prog_Q_pg4">What is the output of the following program?\n
+                          #include<![CDATA[<]]>stdio.h<![CDATA[>]]>\n
+                          main()\n
+                          {\n
+                           float t = 2;\n
+                           switch(t)\n
+                            {  case2: printf("Hi");\n
+                            default: print("Hello");\n
+                           }  }</string>
+    <string name="opt4_pg1">Hi</string>
+    <string name="opt4_pg2">HiHello</string>
+    <string name="opt4_pg3">Hello</string>
+    <string name="opt4_pg4">Error</string>
+    <string name="prog_Q_pg5">Compiler generates_________file.</string>
+    <string name="opt5_pg1">Executable code</string>
+    <string name="opt5_pg2">Object code</string>
+    <string name="opt5_pg3">Assembly code</string>
+    <string name="opt5_pg4">None of the above</string>
+    <string name="prog_Q_pg6">To store a word/sentence declare variable of the type "string".</string>
+    <string name="opt6_pg1">True</string>
+    <string name="opt6_pg2">False</string>
+    <string name="opt6_pg3">Both of the above</string>
+    <string name="opt6_pg4">None of the above</string>
+    <string name="prog_Q_pg7">What is the output of the following program?\n
+                          #include<![CDATA[<]]>stdio.h<![CDATA[>]]>\n
+                          main()\n
+                          {\n
+                           char *s = "Hello";\n
+                           while(*s!= NULL)\n
+                           printf("%c",*s++);\n
+                          }</string>
+    <string name="opt7_pg1">Hello</string>
+    <string name="opt7_pg2">Helloellolloloo</string>
+    <string name="opt7_pg3">ello</string>
+    <string name="opt7_pg4">compile error</string>
+    <string name="prog_Q_pg8">Choose the operator which cannot be overloaded.</string>
+    <string name="opt8_pg1">/</string>
+    <string name="opt8_pg2">()</string>
+    <string name="opt8_pg3">::</string>
+    <string name="opt8_pg4">%</string>
+    <string name="prog_Q_pg9">Which data type can be used to hold a widecharacters in c++?</string>
+    <string name="opt9_pg1">unsigned char;</string>
+    <string name="opt9_pg2">int</string>
+    <string name="opt9_pg3">wchar_t</string>
+    <string name="opt9_pg4">None of the above</string>
+    <string name="prog_Q_pg10">In the following program f() is overloaded.\n
+                          void f(int x){\n
+                          }\n
+                          int f(signed x){\n
+                           return1;\n
+                          }\n
+                          main(){\n
+                          }\n</string>
+    <string name="opt10_pg1">True</string>
+    <string name="opt10_pg2">False</string>
+    <string name="opt10_pg3">Both of the above</string>
+    <string name="opt10_pg4">None of the above</string>
+    <string name="prog_Q_pg11">The pointer which stores always the current active object address is_______.</string>
+    <string name="opt11_pg1">auto_ptr</string>
+    <string name="opt11_pg2">this</string>
+    <string name="opt11_pg3">p</string>
+    <string name="opt11_pg4">None of the above</string>
+    <string name="prog_Q_pg12">What is the full form of RTTI.</string>
+    <string name="opt12_pg1">Runtime type identification</string>
+    <string name="opt12_pg2">Runtime template identification</string>
+    <string name="opt12_pg3">Robust template type inheritance</string>
+    <string name="opt12_pg4">None of the above</string>
+
+
+
+
+    <string name="net_Q_n1">Nothing YET</string>
+    <string name="opt1_n1">Have a good Day</string>
+    <string name="opt1_n2">Have a nice Day</string>
+    <string name="opt1_n3">Have a wonderful day</string>
+    <string name="opt1_n4">Stay safe and happy</string>
+</resources>

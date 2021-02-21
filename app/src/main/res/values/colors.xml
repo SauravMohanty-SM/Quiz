@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_copy">#0fbcf9</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroung_main">#7efff5</color>
+    <color name="backgroung">#000000</color>
+    <color name="welcome">#ffffff</color>
+    <color name="next_button">#e74c3c</color>
+    <color name="wrongAns">#fd0214</color>
+    <color name="rightAns">#4cd137</color>
+</resources>
